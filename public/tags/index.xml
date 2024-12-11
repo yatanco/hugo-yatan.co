@@ -1,17 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on PaperMod</title>
+    <title>Tags on Yatan Blumenthal Vargas</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on PaperMod</description>
+    <description>Recent content in Tags on Yatan Blumenthal Vargas</description>
     <image>
-      <title>PaperMod</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
+      <title>Yatan Blumenthal Vargas</title>
+      <url>http://localhost:1313/images/yatan-logomjsmtr.webp</url>
+      <link>http://localhost:1313/images/yatan-logomjsmtr.webp</link>
     </image>
     <generator>Hugo -- 0.139.3</generator>
-    <language>en</language>
-    <copyright>PaperMod Contributors</copyright>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 May 2022 12:38:43 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inspiration</title>
+      <link>http://localhost:1313/tags/inspiration/</link>
+      <pubDate>Sun, 15 May 2022 12:38:43 -0500</pubDate>
+      <guid>http://localhost:1313/tags/inspiration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clearing</title>
+      <link>http://localhost:1313/tags/clearing/</link>
+      <pubDate>Fri, 01 Apr 2022 22:45:26 -0500</pubDate>
+      <guid>http://localhost:1313/tags/clearing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emotional Intelligence</title>
+      <link>http://localhost:1313/tags/emotional-intelligence/</link>
+      <pubDate>Fri, 01 Apr 2022 22:45:26 -0500</pubDate>
+      <guid>http://localhost:1313/tags/emotional-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meditation</title>
+      <link>http://localhost:1313/tags/meditation/</link>
+      <pubDate>Fri, 01 Apr 2022 22:45:26 -0500</pubDate>
+      <guid>http://localhost:1313/tags/meditation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decision</title>
+      <link>http://localhost:1313/tags/decision/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/decision/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emoji</title>
+      <link>http://localhost:1313/tags/emoji/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/emoji/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keto</title>
+      <link>http://localhost:1313/tags/keto/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/keto/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

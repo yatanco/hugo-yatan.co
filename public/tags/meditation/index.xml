@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Meditation on Yatan Blumenthal Vargas</title>
+    <link>http://localhost:1313/tags/meditation/</link>
+    <description>Recent content in Meditation on Yatan Blumenthal Vargas</description>
+    <image>
+      <title>Yatan Blumenthal Vargas</title>
+      <url>http://localhost:1313/images/yatan-logomjsmtr.webp</url>
+      <link>http://localhost:1313/images/yatan-logomjsmtr.webp</link>
+    </image>
+    <generator>Hugo -- 0.139.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Apr 2022 22:45:26 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/meditation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meditación en la impermanencia</title>
+      <link>http://localhost:1313/meditation/meditacion-en-la-impermanencia/</link>
+      <pubDate>Fri, 01 Apr 2022 22:45:26 -0500</pubDate>
+      <guid>http://localhost:1313/meditation/meditacion-en-la-impermanencia/</guid>
+      <description>Guide to emoji usage in Hugo</description>
+    </item>
+  </channel>
+</rss>

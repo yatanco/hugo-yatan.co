@@ -1,201 +1,180 @@
-# Hugo Configuration for PaperMod theme
+# Site Configuration
+baseURL: "https://www.yatan.co"
+title: "Yatan Blumenthal Vargas"
+languageCode: "en-us"
+theme: "hugo-PaperMod"
+pagination.pagerSize: 5
 
-# Base URL (Make sure it uses HTTPS if site is hosted over HTTPS)
-baseURL: "http://www.yatan.co"
-title: "PaperMod"
-copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
-pagination.size: 5
-theme: [hugo-PaperMod]
-
-# Enable inline shortcodes, robots.txt, and other build options
-enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-enableEmoji: true
-pygmentsUseClasses: true
-mainsections: ["posts", "papermod"]
+pluralizeListTitles: false
+
+# Optional Features
+googleAnalytics: "G-C4MCQHJQY0"
 
 minify:
   disableXML: true
+  minifyOutput: true
 
-languages:
-  en:
-    languageName: "English"
-    weight: 1
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
-    menu:
-      main:
-        - name: Archive
-          url: archives
-          weight: 5
-        - name: Search
-          url: search/
-          weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+# Theme Parameters
+params:
+  env: "production"
+  title: "Yatan Blumenthal Vargas"
+  description: "Startups, VC, Emotional Intelligence, Mindfulness, Leadership"
+  keywords:
+    - Blog
+    - Portfolio
+    - Meditation
+    - Search Inside Yourself
+    - Mindfulness
+    - Adaptive Resilience
+  author: "Yatan Blumenthal Vargas"
+  images:
+    - "/images/yatan-logomjsmtr.webp"
+  DateFormat: "January 2, 2006"
+  defaultTheme: "auto"
+  disableThemeToggle: false
 
-  fr:
-    languageName: ":fr:"
-    weight: 2
-    title: PaperModL2
-    taxonomies:
-      category: FRcategories
-      tag: FRtags
-      series: FRseries
-    menu:
-      main:
-        - name: Archive
-          url: archives/
-          weight: 5
-        - name: FRTags
-          url: frtags
-          weight: 10
-        - name: FRCategories
-          url: frcategories
-          weight: 10
-        - name: FRSeries
-          url: frseries
-          weight: 10
-        - name: NullLink
-          url: "#"
-    params:
-      languageAltTitle: "French"
-      profileMode:
-        enabled: true
-        title: PaperMod
-        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
-        imageTitle: ProfileMode image
-        subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-        buttons:
-          - name: Blog
-            url: posts
-          - name: Profile Mode
-            url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+  # Post Features
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+  TocSide: "left"
+  math: true
+  ShowAllPagesInArchive: true
 
-  fa:
-    languagedirection: rtl
-    weight: 3
-    title: PaperMod RTL
-    taxonomies:
-      category: FAcategories
-      tag: FAtags
-      series: FAseries
-    menu:
-      main:
-        - name: FATags
-          url: fatags
-          weight: 10
-    params:
-      homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: "Welcome to RTL layout"
+  # Appearance
+  label:
+    text: "Yatan"
+    icon: "/images/yatan-logomjsmtr.webp"
+    iconHeight: 35
 
+# Profile Mode Enable
+
+  profileMode:
+    enabled: false
+    title: "Hello! I am Yatan"
+    subtitle: >
+      I support startups through [Founder Institute](https://fi.co) and [Hardware.co](https://hardware.co).  
+      Work for better team culture and communication through [Culture Design](https://culturedesign.org) & [Search Inside Yourself](http://siyli.org).  
+      And work in furthering Brain Health and finding a cure for Alzheimer's through [CerebrumDAO](https://cerebrumdao.com).
+    imageUrl: "/images/yatan-logo.webp"
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: "Yatan's Picture"
+    buttons:
+      - name: "Blog"
+        url: "posts"
+      - name: "Meditations"
+        url: "meditation"
+      - name: "Book a call"
+        url: "cal"
+
+  # Enable home mode
+  homeInfoMode: true
+  homeInfoParams:
+    Title: "Hola, Hello, Hey"
+    Content: >
+      I support startups through [Founder Institute](https://fi.co) and [Hardware.co](https://hardware.co).  
+      Work for better team culture and communication through [Culture Design](https://culturedesign.org) & [Search Inside Yourself](http://siyli.org).  
+      And work in furthering Brain Health and finding a cure for Alzheimer's through [CerebrumDAO](https://cerebrumdao.com).
+
+  socialIcons:
+    - name: "linkedin"
+      url: "http://linkedin.com/in/yatanblumenthal"
+    - name: "twitter"
+      url: "https://twitter.com/yatanbv"
+    - name: "github"
+      url: "https://github.com/yatanco"
+
+  #analytics:
+   # google:
+    #  SiteVerificationTag: "XYZabc"
+    #bing:
+    #  SiteVerificationTag: "XYZabc"
+    #yandex:
+    #  SiteVerificationTag: "XYZabc"
+
+  cover:
+    linkFullImages: true
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: true
+
+  editPost:
+    URL: "https://github.com/yatanco/yatan.co"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
+
+# Output Formats
 outputs:
   home:
     - HTML
     - RSS
     - JSON
 
-# Global parameters
-params:
-  env: production # Enable Google Analytics, OpenGraph, Twitter Cards, Schema
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: "Theme PaperMod"
-  defaultTheme: auto
-  ShowShareButtons: true
-  ShowReadingTime: true
-  displayFullLangName: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowRssButtonInSectionTermList: true
-  ShowAllPagesInArchive: true
-  ShowPageNums: true
-  ShowToc: true
-  images: ["images/papermod-cover.png"]
+# Menu Configuration
+menu:
+  main:
+    - identifier: "aboutme"
+      name: "About Me"
+      url: "about"
+      weight: 5
+    - identifier: "emotionalintelligence"
+      name: "Emotional Intelligence"
+      url: "emotional-intelligence"
+      weight: 5
+    - identifier: "searchinsideyourself"
+      name: "Search Inside Yourself"
+      url: "/search-inside-yourself"
+      parent: "emotionalintelligence"
+      weight: 2
+    - name: "Blog"
+      url: "posts/"
+      weight: 5
+    - name: "Meditation"
+      url: "meditation/"
+      weight: 5
+    - name: "Archives"
+      url: "archives/"
+      weight: 5
 
-  # Profile Mode settings
-  profileMode:
-    enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
+# Syntax Highlighting and Markup
+pygmentsUseClasses: true
 
-  # Home page info
-  homeInfoParams:
-    Title: "PaperMod's Demo"
-    Content: >
-      👋 Welcome to demo page of Hugo's theme PaperMod!
-      
-      - **PaperMod** is designed to be a clean, fast, and responsive theme with a useful feature set that enhances UX.
-      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing it with your friends and on social media.
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
-
-  # Social icons configuration
-  socialIcons:
-    - name: github
-      title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
-    - name: Discord
-      title: Join discord community
-      url: "https://discord.gg/ahpmTvhVmp"
-    - name: X
-      title: Share PaperMod on X/Twitter
-      url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
-    - name: KoFi
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
-
-  # Post editing link
-  editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    Text: "Suggest Changes"
-    appendFilePath: true
-
-# Markdown and syntax highlighting settings
 markup:
-  goldmark:
-    renderer:
-      unsafe: true
+  tableOfContents:
+    endLevel: 6
   highlight:
-    noClasses: false
-
-# Privacy settings for embedded services
-services:
-  instagram:
-    disableInlineCSS: true
-  twitter:
-    disableInlineCSS: true
-
-# Optional: Privacy settings for social platforms (currently disabled)
-# privacy:
-#   vimeo:
-#     disabled: false
-#     simple: true
-#   twitter:
-#     disabled: false
-#     enableDNT: true
-#     simple: true
-#   instagram:
-#     disabled: false
-#     simple: true
-#   youtube:
-#     disabled: false
-#     privacyEnhanced: true
-
-# Assets settings
-assets:
-  disableHLJS: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    lineNumbersInTable: true
+    tabWidth: 4

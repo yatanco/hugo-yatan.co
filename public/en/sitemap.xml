@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/posts/chinesefarmer/</loc>
+    <lastmod>2022-05-15T12:38:43-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/psilocybin/</loc>
+    <lastmod>2022-05-15T12:38:43-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/an-ode-to-the-mountain-and-the-bench/</loc>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ketolista/</loc>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/decision/</loc>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2023-07-06T13:50:33+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -21,8 +35,103 @@
                 href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://localhost:1313/checkin/</loc>
+    <lastmod>2023-07-06T13:50:33+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/adaptive-resilience/</loc>
+    <lastmod>2023-05-31T19:22:33+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/emotional-intelligence/adaptive-resilience/</loc>
+    <lastmod>2023-05-31T19:22:33+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2023-05-22T04:11:30+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/buddhism/</loc>
+    <lastmod>2022-05-15T12:38:43-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2022-05-15T12:38:43-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/inspiration/</loc>
+    <lastmod>2022-05-15T12:38:43-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/syntax/</loc>
+    <lastmod>2022-05-15T12:38:43-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2022-05-15T12:38:43-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/deathandrebirth/</loc>
+    <lastmod>2022-05-14T13:04:24-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/greatguest/</loc>
+    <lastmod>2022-04-01T22:48:45-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/clearing/</loc>
+    <lastmod>2022-04-01T22:45:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/clearing/</loc>
+    <lastmod>2022-04-01T22:45:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/emotional-intelligence/</loc>
+    <lastmod>2022-04-01T22:45:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/emotional-intelligence/</loc>
+    <lastmod>2022-04-01T22:45:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/meditacion-en-la-impermanencia/</loc>
+    <lastmod>2022-04-01T22:45:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/meditaci%C3%B3n-en-la-incertidumbre-del-momento-de-la-muerte/</loc>
+    <lastmod>2022-04-01T22:45:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/meditaci%C3%B3n-en-la-inevitabilidad-de-la-muerte/</loc>
+    <lastmod>2022-04-01T22:45:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/meditation/</loc>
+    <lastmod>2022-04-01T22:45:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/</loc>
+    <lastmod>2022-04-01T22:45:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/cven/</loc>
+    <lastmod>2022-04-01T22:45:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/cves/</loc>
+    <lastmod>2022-04-01T22:45:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/decision/</loc>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/emoji/</loc>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/keto/</loc>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2020-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/calendar/</loc>
+    <lastmod>2020-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/search-inside-yourself/</loc>
+    <lastmod>2020-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/acimworkbook.es/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/uncursodemilagros/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/acim/</loc>
+    <lastmod>2011-05-06T06:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>
