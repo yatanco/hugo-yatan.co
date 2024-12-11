@@ -1,0 +1,7 @@
+# Site Configuration
+baseURL = 'http://www.yatan.co'
+languageCode = 'en-us'
+title = 'Yatan Blumenthal Vargas'
+theme = 'hugo-PaperMod'
+pagination.pagerSize = 5
+
